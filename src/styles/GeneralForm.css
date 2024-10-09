@@ -1,0 +1,145 @@
+/* Genel gövde ve form ayarları */
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Formun ana düzeni */
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  /* Form alanlarının ayarları */
+  .form-field {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  /* Input ve select alanlarının stili */
+  .form-field input, .form-field select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f9fc;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-field input:focus, .form-field select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  .form-field label {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Portal Giriş Butonu */
+  .portal-button-inline {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .portal-button-inline:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* Kaydet Butonu */
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Geri Dön Butonu */
+  .back-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }
+  
+  /* Hata mesajı stili */
+  .input-error {
+    border-color: #ff4d4d;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  /* Portal alanı */
+  .portal-container, .welcome-message {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .portal-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
